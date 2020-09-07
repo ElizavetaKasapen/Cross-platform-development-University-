@@ -1,0 +1,2261 @@
+Compiled from "PrintInfo.java"
+public class PrintInfo {
+  public PrintInfo();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: sipush        560
+       3: newarray       char
+       5: dup
+       6: iconst_0
+       7: bipush        42
+       9: castore
+      10: dup
+      11: iconst_1
+      12: bipush        42
+      14: castore
+      15: dup
+      16: iconst_2
+      17: bipush        32
+      19: castore
+      20: dup
+      21: iconst_3
+      22: bipush        32
+      24: castore
+      25: dup
+      26: iconst_4
+      27: bipush        32
+      29: castore
+      30: dup
+      31: iconst_5
+      32: bipush        32
+      34: castore
+      35: dup
+      36: bipush        6
+      38: bipush        32
+      40: castore
+      41: dup
+      42: bipush        7
+      44: bipush        32
+      46: castore
+      47: dup
+      48: bipush        8
+      50: bipush        42
+      52: castore
+      53: dup
+      54: bipush        9
+      56: bipush        42
+      58: castore
+      59: dup
+      60: bipush        10
+      62: bipush        32
+      64: castore
+      65: dup
+      66: bipush        11
+      68: bipush        32
+      70: castore
+      71: dup
+      72: bipush        12
+      74: bipush        32
+      76: castore
+      77: dup
+      78: bipush        13
+      80: bipush        32
+      82: castore
+      83: dup
+      84: bipush        14
+      86: bipush        32
+      88: castore
+      89: dup
+      90: bipush        15
+      92: bipush        42
+      94: castore
+      95: dup
+      96: bipush        16
+      98: bipush        42
+     100: castore
+     101: dup
+     102: bipush        17
+     104: bipush        42
+     106: castore
+     107: dup
+     108: bipush        18
+     110: bipush        42
+     112: castore
+     113: dup
+     114: bipush        19
+     116: bipush        42
+     118: castore
+     119: dup
+     120: bipush        20
+     122: bipush        42
+     124: castore
+     125: dup
+     126: bipush        21
+     128: bipush        42
+     130: castore
+     131: dup
+     132: bipush        22
+     134: bipush        42
+     136: castore
+     137: dup
+     138: bipush        23
+     140: bipush        32
+     142: castore
+     143: dup
+     144: bipush        24
+     146: bipush        32
+     148: castore
+     149: dup
+     150: bipush        25
+     152: bipush        42
+     154: castore
+     155: dup
+     156: bipush        26
+     158: bipush        42
+     160: castore
+     161: dup
+     162: bipush        27
+     164: bipush        32
+     166: castore
+     167: dup
+     168: bipush        28
+     170: bipush        32
+     172: castore
+     173: dup
+     174: bipush        29
+     176: bipush        32
+     178: castore
+     179: dup
+     180: bipush        30
+     182: bipush        32
+     184: castore
+     185: dup
+     186: bipush        31
+     188: bipush        32
+     190: castore
+     191: dup
+     192: bipush        32
+     194: bipush        32
+     196: castore
+     197: dup
+     198: bipush        33
+     200: bipush        32
+     202: castore
+     203: dup
+     204: bipush        34
+     206: bipush        32
+     208: castore
+     209: dup
+     210: bipush        35
+     212: bipush        32
+     214: castore
+     215: dup
+     216: bipush        36
+     218: bipush        32
+     220: castore
+     221: dup
+     222: bipush        37
+     224: bipush        32
+     226: castore
+     227: dup
+     228: bipush        38
+     230: bipush        32
+     232: castore
+     233: dup
+     234: bipush        39
+     236: bipush        32
+     238: castore
+     239: dup
+     240: bipush        40
+     242: bipush        42
+     244: castore
+     245: dup
+     246: bipush        41
+     248: bipush        42
+     250: castore
+     251: dup
+     252: bipush        42
+     254: bipush        10
+     256: castore
+     257: dup
+     258: bipush        43
+     260: bipush        42
+     262: castore
+     263: dup
+     264: bipush        44
+     266: bipush        42
+     268: castore
+     269: dup
+     270: bipush        45
+     272: bipush        32
+     274: castore
+     275: dup
+     276: bipush        46
+     278: bipush        32
+     280: castore
+     281: dup
+     282: bipush        47
+     284: bipush        32
+     286: castore
+     287: dup
+     288: bipush        48
+     290: bipush        32
+     292: castore
+     293: dup
+     294: bipush        49
+     296: bipush        32
+     298: castore
+     299: dup
+     300: bipush        50
+     302: bipush        42
+     304: castore
+     305: dup
+     306: bipush        51
+     308: bipush        42
+     310: castore
+     311: dup
+     312: bipush        52
+     314: bipush        32
+     316: castore
+     317: dup
+     318: bipush        53
+     320: bipush        32
+     322: castore
+     323: dup
+     324: bipush        54
+     326: bipush        32
+     328: castore
+     329: dup
+     330: bipush        55
+     332: bipush        32
+     334: castore
+     335: dup
+     336: bipush        56
+     338: bipush        32
+     340: castore
+     341: dup
+     342: bipush        57
+     344: bipush        32
+     346: castore
+     347: dup
+     348: bipush        58
+     350: bipush        42
+     352: castore
+     353: dup
+     354: bipush        59
+     356: bipush        42
+     358: castore
+     359: dup
+     360: bipush        60
+     362: bipush        42
+     364: castore
+     365: dup
+     366: bipush        61
+     368: bipush        42
+     370: castore
+     371: dup
+     372: bipush        62
+     374: bipush        42
+     376: castore
+     377: dup
+     378: bipush        63
+     380: bipush        42
+     382: castore
+     383: dup
+     384: bipush        64
+     386: bipush        42
+     388: castore
+     389: dup
+     390: bipush        65
+     392: bipush        42
+     394: castore
+     395: dup
+     396: bipush        66
+     398: bipush        32
+     400: castore
+     401: dup
+     402: bipush        67
+     404: bipush        32
+     406: castore
+     407: dup
+     408: bipush        68
+     410: bipush        42
+     412: castore
+     413: dup
+     414: bipush        69
+     416: bipush        42
+     418: castore
+     419: dup
+     420: bipush        70
+     422: bipush        32
+     424: castore
+     425: dup
+     426: bipush        71
+     428: bipush        32
+     430: castore
+     431: dup
+     432: bipush        72
+     434: bipush        32
+     436: castore
+     437: dup
+     438: bipush        73
+     440: bipush        32
+     442: castore
+     443: dup
+     444: bipush        74
+     446: bipush        32
+     448: castore
+     449: dup
+     450: bipush        75
+     452: bipush        32
+     454: castore
+     455: dup
+     456: bipush        76
+     458: bipush        32
+     460: castore
+     461: dup
+     462: bipush        77
+     464: bipush        32
+     466: castore
+     467: dup
+     468: bipush        78
+     470: bipush        32
+     472: castore
+     473: dup
+     474: bipush        79
+     476: bipush        32
+     478: castore
+     479: dup
+     480: bipush        80
+     482: bipush        32
+     484: castore
+     485: dup
+     486: bipush        81
+     488: bipush        32
+     490: castore
+     491: dup
+     492: bipush        82
+     494: bipush        32
+     496: castore
+     497: dup
+     498: bipush        83
+     500: bipush        42
+     502: castore
+     503: dup
+     504: bipush        84
+     506: bipush        42
+     508: castore
+     509: dup
+     510: bipush        85
+     512: bipush        10
+     514: castore
+     515: dup
+     516: bipush        86
+     518: bipush        42
+     520: castore
+     521: dup
+     522: bipush        87
+     524: bipush        42
+     526: castore
+     527: dup
+     528: bipush        88
+     530: bipush        32
+     532: castore
+     533: dup
+     534: bipush        89
+     536: bipush        32
+     538: castore
+     539: dup
+     540: bipush        90
+     542: bipush        32
+     544: castore
+     545: dup
+     546: bipush        91
+     548: bipush        32
+     550: castore
+     551: dup
+     552: bipush        92
+     554: bipush        42
+     556: castore
+     557: dup
+     558: bipush        93
+     560: bipush        42
+     562: castore
+     563: dup
+     564: bipush        94
+     566: bipush        32
+     568: castore
+     569: dup
+     570: bipush        95
+     572: bipush        32
+     574: castore
+     575: dup
+     576: bipush        96
+     578: bipush        32
+     580: castore
+     581: dup
+     582: bipush        97
+     584: bipush        32
+     586: castore
+     587: dup
+     588: bipush        98
+     590: bipush        32
+     592: castore
+     593: dup
+     594: bipush        99
+     596: bipush        32
+     598: castore
+     599: dup
+     600: bipush        100
+     602: bipush        32
+     604: castore
+     605: dup
+     606: bipush        101
+     608: bipush        42
+     610: castore
+     611: dup
+     612: bipush        102
+     614: bipush        42
+     616: castore
+     617: dup
+     618: bipush        103
+     620: bipush        32
+     622: castore
+     623: dup
+     624: bipush        104
+     626: bipush        32
+     628: castore
+     629: dup
+     630: bipush        105
+     632: bipush        32
+     634: castore
+     635: dup
+     636: bipush        106
+     638: bipush        32
+     640: castore
+     641: dup
+     642: bipush        107
+     644: bipush        32
+     646: castore
+     647: dup
+     648: bipush        108
+     650: bipush        32
+     652: castore
+     653: dup
+     654: bipush        109
+     656: bipush        32
+     658: castore
+     659: dup
+     660: bipush        110
+     662: bipush        32
+     664: castore
+     665: dup
+     666: bipush        111
+     668: bipush        32
+     670: castore
+     671: dup
+     672: bipush        112
+     674: bipush        42
+     676: castore
+     677: dup
+     678: bipush        113
+     680: bipush        42
+     682: castore
+     683: dup
+     684: bipush        114
+     686: bipush        32
+     688: castore
+     689: dup
+     690: bipush        115
+     692: bipush        32
+     694: castore
+     695: dup
+     696: bipush        116
+     698: bipush        32
+     700: castore
+     701: dup
+     702: bipush        117
+     704: bipush        32
+     706: castore
+     707: dup
+     708: bipush        118
+     710: bipush        32
+     712: castore
+     713: dup
+     714: bipush        119
+     716: bipush        32
+     718: castore
+     719: dup
+     720: bipush        120
+     722: bipush        32
+     724: castore
+     725: dup
+     726: bipush        121
+     728: bipush        32
+     730: castore
+     731: dup
+     732: bipush        122
+     734: bipush        32
+     736: castore
+     737: dup
+     738: bipush        123
+     740: bipush        32
+     742: castore
+     743: dup
+     744: bipush        124
+     746: bipush        32
+     748: castore
+     749: dup
+     750: bipush        125
+     752: bipush        42
+     754: castore
+     755: dup
+     756: bipush        126
+     758: bipush        42
+     760: castore
+     761: dup
+     762: bipush        127
+     764: bipush        10
+     766: castore
+     767: dup
+     768: sipush        128
+     771: bipush        42
+     773: castore
+     774: dup
+     775: sipush        129
+     778: bipush        42
+     780: castore
+     781: dup
+     782: sipush        130
+     785: bipush        32
+     787: castore
+     788: dup
+     789: sipush        131
+     792: bipush        32
+     794: castore
+     795: dup
+     796: sipush        132
+     799: bipush        32
+     801: castore
+     802: dup
+     803: sipush        133
+     806: bipush        42
+     808: castore
+     809: dup
+     810: sipush        134
+     813: bipush        42
+     815: castore
+     816: dup
+     817: sipush        135
+     820: bipush        32
+     822: castore
+     823: dup
+     824: sipush        136
+     827: bipush        32
+     829: castore
+     830: dup
+     831: sipush        137
+     834: bipush        32
+     836: castore
+     837: dup
+     838: sipush        138
+     841: bipush        32
+     843: castore
+     844: dup
+     845: sipush        139
+     848: bipush        32
+     850: castore
+     851: dup
+     852: sipush        140
+     855: bipush        32
+     857: castore
+     858: dup
+     859: sipush        141
+     862: bipush        32
+     864: castore
+     865: dup
+     866: sipush        142
+     869: bipush        32
+     871: castore
+     872: dup
+     873: sipush        143
+     876: bipush        42
+     878: castore
+     879: dup
+     880: sipush        144
+     883: bipush        42
+     885: castore
+     886: dup
+     887: sipush        145
+     890: bipush        32
+     892: castore
+     893: dup
+     894: sipush        146
+     897: bipush        32
+     899: castore
+     900: dup
+     901: sipush        147
+     904: bipush        32
+     906: castore
+     907: dup
+     908: sipush        148
+     911: bipush        32
+     913: castore
+     914: dup
+     915: sipush        149
+     918: bipush        32
+     920: castore
+     921: dup
+     922: sipush        150
+     925: bipush        32
+     927: castore
+     928: dup
+     929: sipush        151
+     932: bipush        32
+     934: castore
+     935: dup
+     936: sipush        152
+     939: bipush        32
+     941: castore
+     942: dup
+     943: sipush        153
+     946: bipush        32
+     948: castore
+     949: dup
+     950: sipush        154
+     953: bipush        42
+     955: castore
+     956: dup
+     957: sipush        155
+     960: bipush        42
+     962: castore
+     963: dup
+     964: sipush        156
+     967: bipush        32
+     969: castore
+     970: dup
+     971: sipush        157
+     974: bipush        32
+     976: castore
+     977: dup
+     978: sipush        158
+     981: bipush        32
+     983: castore
+     984: dup
+     985: sipush        159
+     988: bipush        32
+     990: castore
+     991: dup
+     992: sipush        160
+     995: bipush        32
+     997: castore
+     998: dup
+     999: sipush        161
+    1002: bipush        32
+    1004: castore
+    1005: dup
+    1006: sipush        162
+    1009: bipush        32
+    1011: castore
+    1012: dup
+    1013: sipush        163
+    1016: bipush        32
+    1018: castore
+    1019: dup
+    1020: sipush        164
+    1023: bipush        32
+    1025: castore
+    1026: dup
+    1027: sipush        165
+    1030: bipush        32
+    1032: castore
+    1033: dup
+    1034: sipush        166
+    1037: bipush        32
+    1039: castore
+    1040: dup
+    1041: sipush        167
+    1044: bipush        42
+    1046: castore
+    1047: dup
+    1048: sipush        168
+    1051: bipush        42
+    1053: castore
+    1054: dup
+    1055: sipush        169
+    1058: bipush        10
+    1060: castore
+    1061: dup
+    1062: sipush        170
+    1065: bipush        42
+    1067: castore
+    1068: dup
+    1069: sipush        171
+    1072: bipush        42
+    1074: castore
+    1075: dup
+    1076: sipush        172
+    1079: bipush        32
+    1081: castore
+    1082: dup
+    1083: sipush        173
+    1086: bipush        32
+    1088: castore
+    1089: dup
+    1090: sipush        174
+    1093: bipush        42
+    1095: castore
+    1096: dup
+    1097: sipush        175
+    1100: bipush        42
+    1102: castore
+    1103: dup
+    1104: sipush        176
+    1107: bipush        32
+    1109: castore
+    1110: dup
+    1111: sipush        177
+    1114: bipush        32
+    1116: castore
+    1117: dup
+    1118: sipush        178
+    1121: bipush        32
+    1123: castore
+    1124: dup
+    1125: sipush        179
+    1128: bipush        32
+    1130: castore
+    1131: dup
+    1132: sipush        180
+    1135: bipush        32
+    1137: castore
+    1138: dup
+    1139: sipush        181
+    1142: bipush        32
+    1144: castore
+    1145: dup
+    1146: sipush        182
+    1149: bipush        32
+    1151: castore
+    1152: dup
+    1153: sipush        183
+    1156: bipush        32
+    1158: castore
+    1159: dup
+    1160: sipush        184
+    1163: bipush        32
+    1165: castore
+    1166: dup
+    1167: sipush        185
+    1170: bipush        42
+    1172: castore
+    1173: dup
+    1174: sipush        186
+    1177: bipush        42
+    1179: castore
+    1180: dup
+    1181: sipush        187
+    1184: bipush        32
+    1186: castore
+    1187: dup
+    1188: sipush        188
+    1191: bipush        32
+    1193: castore
+    1194: dup
+    1195: sipush        189
+    1198: bipush        32
+    1200: castore
+    1201: dup
+    1202: sipush        190
+    1205: bipush        32
+    1207: castore
+    1208: dup
+    1209: sipush        191
+    1212: bipush        32
+    1214: castore
+    1215: dup
+    1216: sipush        192
+    1219: bipush        32
+    1221: castore
+    1222: dup
+    1223: sipush        193
+    1226: bipush        32
+    1228: castore
+    1229: dup
+    1230: sipush        194
+    1233: bipush        32
+    1235: castore
+    1236: dup
+    1237: sipush        195
+    1240: bipush        32
+    1242: castore
+    1243: dup
+    1244: sipush        196
+    1247: bipush        32
+    1249: castore
+    1250: dup
+    1251: sipush        197
+    1254: bipush        42
+    1256: castore
+    1257: dup
+    1258: sipush        198
+    1261: bipush        42
+    1263: castore
+    1264: dup
+    1265: sipush        199
+    1268: bipush        32
+    1270: castore
+    1271: dup
+    1272: sipush        200
+    1275: bipush        32
+    1277: castore
+    1278: dup
+    1279: sipush        201
+    1282: bipush        32
+    1284: castore
+    1285: dup
+    1286: sipush        202
+    1289: bipush        32
+    1291: castore
+    1292: dup
+    1293: sipush        203
+    1296: bipush        32
+    1298: castore
+    1299: dup
+    1300: sipush        204
+    1303: bipush        32
+    1305: castore
+    1306: dup
+    1307: sipush        205
+    1310: bipush        32
+    1312: castore
+    1313: dup
+    1314: sipush        206
+    1317: bipush        32
+    1319: castore
+    1320: dup
+    1321: sipush        207
+    1324: bipush        32
+    1326: castore
+    1327: dup
+    1328: sipush        208
+    1331: bipush        42
+    1333: castore
+    1334: dup
+    1335: sipush        209
+    1338: bipush        42
+    1340: castore
+    1341: dup
+    1342: sipush        210
+    1345: bipush        10
+    1347: castore
+    1348: dup
+    1349: sipush        211
+    1352: bipush        42
+    1354: castore
+    1355: dup
+    1356: sipush        212
+    1359: bipush        42
+    1361: castore
+    1362: dup
+    1363: sipush        213
+    1366: bipush        32
+    1368: castore
+    1369: dup
+    1370: sipush        214
+    1373: bipush        42
+    1375: castore
+    1376: dup
+    1377: sipush        215
+    1380: bipush        42
+    1382: castore
+    1383: dup
+    1384: sipush        216
+    1387: bipush        32
+    1389: castore
+    1390: dup
+    1391: sipush        217
+    1394: bipush        32
+    1396: castore
+    1397: dup
+    1398: sipush        218
+    1401: bipush        32
+    1403: castore
+    1404: dup
+    1405: sipush        219
+    1408: bipush        32
+    1410: castore
+    1411: dup
+    1412: sipush        220
+    1415: bipush        32
+    1417: castore
+    1418: dup
+    1419: sipush        221
+    1422: bipush        32
+    1424: castore
+    1425: dup
+    1426: sipush        222
+    1429: bipush        32
+    1431: castore
+    1432: dup
+    1433: sipush        223
+    1436: bipush        32
+    1438: castore
+    1439: dup
+    1440: sipush        224
+    1443: bipush        32
+    1445: castore
+    1446: dup
+    1447: sipush        225
+    1450: bipush        32
+    1452: castore
+    1453: dup
+    1454: sipush        226
+    1457: bipush        42
+    1459: castore
+    1460: dup
+    1461: sipush        227
+    1464: bipush        42
+    1466: castore
+    1467: dup
+    1468: sipush        228
+    1471: bipush        42
+    1473: castore
+    1474: dup
+    1475: sipush        229
+    1478: bipush        42
+    1480: castore
+    1481: dup
+    1482: sipush        230
+    1485: bipush        42
+    1487: castore
+    1488: dup
+    1489: sipush        231
+    1492: bipush        42
+    1494: castore
+    1495: dup
+    1496: sipush        232
+    1499: bipush        42
+    1501: castore
+    1502: dup
+    1503: sipush        233
+    1506: bipush        42
+    1508: castore
+    1509: dup
+    1510: sipush        234
+    1513: bipush        32
+    1515: castore
+    1516: dup
+    1517: sipush        235
+    1520: bipush        32
+    1522: castore
+    1523: dup
+    1524: sipush        236
+    1527: bipush        32
+    1529: castore
+    1530: dup
+    1531: sipush        237
+    1534: bipush        32
+    1536: castore
+    1537: dup
+    1538: sipush        238
+    1541: bipush        42
+    1543: castore
+    1544: dup
+    1545: sipush        239
+    1548: bipush        42
+    1550: castore
+    1551: dup
+    1552: sipush        240
+    1555: bipush        32
+    1557: castore
+    1558: dup
+    1559: sipush        241
+    1562: bipush        32
+    1564: castore
+    1565: dup
+    1566: sipush        242
+    1569: bipush        32
+    1571: castore
+    1572: dup
+    1573: sipush        243
+    1576: bipush        32
+    1578: castore
+    1579: dup
+    1580: sipush        244
+    1583: bipush        32
+    1585: castore
+    1586: dup
+    1587: sipush        245
+    1590: bipush        32
+    1592: castore
+    1593: dup
+    1594: sipush        246
+    1597: bipush        32
+    1599: castore
+    1600: dup
+    1601: sipush        247
+    1604: bipush        32
+    1606: castore
+    1607: dup
+    1608: sipush        248
+    1611: bipush        32
+    1613: castore
+    1614: dup
+    1615: sipush        249
+    1618: bipush        42
+    1620: castore
+    1621: dup
+    1622: sipush        250
+    1625: bipush        42
+    1627: castore
+    1628: dup
+    1629: sipush        251
+    1632: bipush        10
+    1634: castore
+    1635: dup
+    1636: sipush        252
+    1639: bipush        42
+    1641: castore
+    1642: dup
+    1643: sipush        253
+    1646: bipush        42
+    1648: castore
+    1649: dup
+    1650: sipush        254
+    1653: bipush        42
+    1655: castore
+    1656: dup
+    1657: sipush        255
+    1660: bipush        42
+    1662: castore
+    1663: dup
+    1664: sipush        256
+    1667: bipush        32
+    1669: castore
+    1670: dup
+    1671: sipush        257
+    1674: bipush        32
+    1676: castore
+    1677: dup
+    1678: sipush        258
+    1681: bipush        32
+    1683: castore
+    1684: dup
+    1685: sipush        259
+    1688: bipush        32
+    1690: castore
+    1691: dup
+    1692: sipush        260
+    1695: bipush        32
+    1697: castore
+    1698: dup
+    1699: sipush        261
+    1702: bipush        32
+    1704: castore
+    1705: dup
+    1706: sipush        262
+    1709: bipush        32
+    1711: castore
+    1712: dup
+    1713: sipush        263
+    1716: bipush        32
+    1718: castore
+    1719: dup
+    1720: sipush        264
+    1723: bipush        32
+    1725: castore
+    1726: dup
+    1727: sipush        265
+    1730: bipush        32
+    1732: castore
+    1733: dup
+    1734: sipush        266
+    1737: bipush        32
+    1739: castore
+    1740: dup
+    1741: sipush        267
+    1744: bipush        42
+    1746: castore
+    1747: dup
+    1748: sipush        268
+    1751: bipush        42
+    1753: castore
+    1754: dup
+    1755: sipush        269
+    1758: bipush        42
+    1760: castore
+    1761: dup
+    1762: sipush        270
+    1765: bipush        42
+    1767: castore
+    1768: dup
+    1769: sipush        271
+    1772: bipush        42
+    1774: castore
+    1775: dup
+    1776: sipush        272
+    1779: bipush        42
+    1781: castore
+    1782: dup
+    1783: sipush        273
+    1786: bipush        42
+    1788: castore
+    1789: dup
+    1790: sipush        274
+    1793: bipush        42
+    1795: castore
+    1796: dup
+    1797: sipush        275
+    1800: bipush        32
+    1802: castore
+    1803: dup
+    1804: sipush        276
+    1807: bipush        32
+    1809: castore
+    1810: dup
+    1811: sipush        277
+    1814: bipush        32
+    1816: castore
+    1817: dup
+    1818: sipush        278
+    1821: bipush        32
+    1823: castore
+    1824: dup
+    1825: sipush        279
+    1828: bipush        32
+    1830: castore
+    1831: dup
+    1832: sipush        280
+    1835: bipush        42
+    1837: castore
+    1838: dup
+    1839: sipush        281
+    1842: bipush        42
+    1844: castore
+    1845: dup
+    1846: sipush        282
+    1849: bipush        32
+    1851: castore
+    1852: dup
+    1853: sipush        283
+    1856: bipush        32
+    1858: castore
+    1859: dup
+    1860: sipush        284
+    1863: bipush        32
+    1865: castore
+    1866: dup
+    1867: sipush        285
+    1870: bipush        32
+    1872: castore
+    1873: dup
+    1874: sipush        286
+    1877: bipush        32
+    1879: castore
+    1880: dup
+    1881: sipush        287
+    1884: bipush        32
+    1886: castore
+    1887: dup
+    1888: sipush        288
+    1891: bipush        32
+    1893: castore
+    1894: dup
+    1895: sipush        289
+    1898: bipush        42
+    1900: castore
+    1901: dup
+    1902: sipush        290
+    1905: bipush        42
+    1907: castore
+    1908: dup
+    1909: sipush        291
+    1912: bipush        10
+    1914: castore
+    1915: dup
+    1916: sipush        292
+    1919: bipush        42
+    1921: castore
+    1922: dup
+    1923: sipush        293
+    1926: bipush        42
+    1928: castore
+    1929: dup
+    1930: sipush        294
+    1933: bipush        32
+    1935: castore
+    1936: dup
+    1937: sipush        295
+    1940: bipush        42
+    1942: castore
+    1943: dup
+    1944: sipush        296
+    1947: bipush        42
+    1949: castore
+    1950: dup
+    1951: sipush        297
+    1954: bipush        32
+    1956: castore
+    1957: dup
+    1958: sipush        298
+    1961: bipush        32
+    1963: castore
+    1964: dup
+    1965: sipush        299
+    1968: bipush        32
+    1970: castore
+    1971: dup
+    1972: sipush        300
+    1975: bipush        32
+    1977: castore
+    1978: dup
+    1979: sipush        301
+    1982: bipush        32
+    1984: castore
+    1985: dup
+    1986: sipush        302
+    1989: bipush        32
+    1991: castore
+    1992: dup
+    1993: sipush        303
+    1996: bipush        32
+    1998: castore
+    1999: dup
+    2000: sipush        304
+    2003: bipush        32
+    2005: castore
+    2006: dup
+    2007: sipush        305
+    2010: bipush        32
+    2012: castore
+    2013: dup
+    2014: sipush        306
+    2017: bipush        32
+    2019: castore
+    2020: dup
+    2021: sipush        307
+    2024: bipush        42
+    2026: castore
+    2027: dup
+    2028: sipush        308
+    2031: bipush        42
+    2033: castore
+    2034: dup
+    2035: sipush        309
+    2038: bipush        32
+    2040: castore
+    2041: dup
+    2042: sipush        310
+    2045: bipush        32
+    2047: castore
+    2048: dup
+    2049: sipush        311
+    2052: bipush        32
+    2054: castore
+    2055: dup
+    2056: sipush        312
+    2059: bipush        32
+    2061: castore
+    2062: dup
+    2063: sipush        313
+    2066: bipush        32
+    2068: castore
+    2069: dup
+    2070: sipush        314
+    2073: bipush        32
+    2075: castore
+    2076: dup
+    2077: sipush        315
+    2080: bipush        32
+    2082: castore
+    2083: dup
+    2084: sipush        316
+    2087: bipush        32
+    2089: castore
+    2090: dup
+    2091: sipush        317
+    2094: bipush        32
+    2096: castore
+    2097: dup
+    2098: sipush        318
+    2101: bipush        32
+    2103: castore
+    2104: dup
+    2105: sipush        319
+    2108: bipush        32
+    2110: castore
+    2111: dup
+    2112: sipush        320
+    2115: bipush        42
+    2117: castore
+    2118: dup
+    2119: sipush        321
+    2122: bipush        42
+    2124: castore
+    2125: dup
+    2126: sipush        322
+    2129: bipush        32
+    2131: castore
+    2132: dup
+    2133: sipush        323
+    2136: bipush        32
+    2138: castore
+    2139: dup
+    2140: sipush        324
+    2143: bipush        32
+    2145: castore
+    2146: dup
+    2147: sipush        325
+    2150: bipush        32
+    2152: castore
+    2153: dup
+    2154: sipush        326
+    2157: bipush        32
+    2159: castore
+    2160: dup
+    2161: sipush        327
+    2164: bipush        32
+    2166: castore
+    2167: dup
+    2168: sipush        328
+    2171: bipush        32
+    2173: castore
+    2174: dup
+    2175: sipush        329
+    2178: bipush        42
+    2180: castore
+    2181: dup
+    2182: sipush        330
+    2185: bipush        42
+    2187: castore
+    2188: dup
+    2189: sipush        331
+    2192: bipush        10
+    2194: castore
+    2195: dup
+    2196: sipush        332
+    2199: bipush        42
+    2201: castore
+    2202: dup
+    2203: sipush        333
+    2206: bipush        42
+    2208: castore
+    2209: dup
+    2210: sipush        334
+    2213: bipush        32
+    2215: castore
+    2216: dup
+    2217: sipush        335
+    2220: bipush        32
+    2222: castore
+    2223: dup
+    2224: sipush        336
+    2227: bipush        42
+    2229: castore
+    2230: dup
+    2231: sipush        337
+    2234: bipush        42
+    2236: castore
+    2237: dup
+    2238: sipush        338
+    2241: bipush        32
+    2243: castore
+    2244: dup
+    2245: sipush        339
+    2248: bipush        32
+    2250: castore
+    2251: dup
+    2252: sipush        340
+    2255: bipush        32
+    2257: castore
+    2258: dup
+    2259: sipush        341
+    2262: bipush        32
+    2264: castore
+    2265: dup
+    2266: sipush        342
+    2269: bipush        32
+    2271: castore
+    2272: dup
+    2273: sipush        343
+    2276: bipush        32
+    2278: castore
+    2279: dup
+    2280: sipush        344
+    2283: bipush        32
+    2285: castore
+    2286: dup
+    2287: sipush        345
+    2290: bipush        32
+    2292: castore
+    2293: dup
+    2294: sipush        346
+    2297: bipush        32
+    2299: castore
+    2300: dup
+    2301: sipush        347
+    2304: bipush        42
+    2306: castore
+    2307: dup
+    2308: sipush        348
+    2311: bipush        42
+    2313: castore
+    2314: dup
+    2315: sipush        349
+    2318: bipush        32
+    2320: castore
+    2321: dup
+    2322: sipush        350
+    2325: bipush        32
+    2327: castore
+    2328: dup
+    2329: sipush        351
+    2332: bipush        32
+    2334: castore
+    2335: dup
+    2336: sipush        352
+    2339: bipush        32
+    2341: castore
+    2342: dup
+    2343: sipush        353
+    2346: bipush        32
+    2348: castore
+    2349: dup
+    2350: sipush        354
+    2353: bipush        32
+    2355: castore
+    2356: dup
+    2357: sipush        355
+    2360: bipush        32
+    2362: castore
+    2363: dup
+    2364: sipush        356
+    2367: bipush        32
+    2369: castore
+    2370: dup
+    2371: sipush        357
+    2374: bipush        32
+    2376: castore
+    2377: dup
+    2378: sipush        358
+    2381: bipush        32
+    2383: castore
+    2384: dup
+    2385: sipush        359
+    2388: bipush        32
+    2390: castore
+    2391: dup
+    2392: sipush        360
+    2395: bipush        32
+    2397: castore
+    2398: dup
+    2399: sipush        361
+    2402: bipush        42
+    2404: castore
+    2405: dup
+    2406: sipush        362
+    2409: bipush        42
+    2411: castore
+    2412: dup
+    2413: sipush        363
+    2416: bipush        32
+    2418: castore
+    2419: dup
+    2420: sipush        364
+    2423: bipush        32
+    2425: castore
+    2426: dup
+    2427: sipush        365
+    2430: bipush        32
+    2432: castore
+    2433: dup
+    2434: sipush        366
+    2437: bipush        32
+    2439: castore
+    2440: dup
+    2441: sipush        367
+    2444: bipush        32
+    2446: castore
+    2447: dup
+    2448: sipush        368
+    2451: bipush        42
+    2453: castore
+    2454: dup
+    2455: sipush        369
+    2458: bipush        42
+    2460: castore
+    2461: dup
+    2462: sipush        370
+    2465: bipush        10
+    2467: castore
+    2468: dup
+    2469: sipush        371
+    2472: bipush        42
+    2474: castore
+    2475: dup
+    2476: sipush        372
+    2479: bipush        42
+    2481: castore
+    2482: dup
+    2483: sipush        373
+    2486: bipush        32
+    2488: castore
+    2489: dup
+    2490: sipush        374
+    2493: bipush        32
+    2495: castore
+    2496: dup
+    2497: sipush        375
+    2500: bipush        32
+    2502: castore
+    2503: dup
+    2504: sipush        376
+    2507: bipush        42
+    2509: castore
+    2510: dup
+    2511: sipush        377
+    2514: bipush        42
+    2516: castore
+    2517: dup
+    2518: sipush        378
+    2521: bipush        32
+    2523: castore
+    2524: dup
+    2525: sipush        379
+    2528: bipush        32
+    2530: castore
+    2531: dup
+    2532: sipush        380
+    2535: bipush        32
+    2537: castore
+    2538: dup
+    2539: sipush        381
+    2542: bipush        32
+    2544: castore
+    2545: dup
+    2546: sipush        382
+    2549: bipush        32
+    2551: castore
+    2552: dup
+    2553: sipush        383
+    2556: bipush        32
+    2558: castore
+    2559: dup
+    2560: sipush        384
+    2563: bipush        32
+    2565: castore
+    2566: dup
+    2567: sipush        385
+    2570: bipush        32
+    2572: castore
+    2573: dup
+    2574: sipush        386
+    2577: bipush        42
+    2579: castore
+    2580: dup
+    2581: sipush        387
+    2584: bipush        42
+    2586: castore
+    2587: dup
+    2588: sipush        388
+    2591: bipush        32
+    2593: castore
+    2594: dup
+    2595: sipush        389
+    2598: bipush        32
+    2600: castore
+    2601: dup
+    2602: sipush        390
+    2605: bipush        32
+    2607: castore
+    2608: dup
+    2609: sipush        391
+    2612: bipush        32
+    2614: castore
+    2615: dup
+    2616: sipush        392
+    2619: bipush        32
+    2621: castore
+    2622: dup
+    2623: sipush        393
+    2626: bipush        32
+    2628: castore
+    2629: dup
+    2630: sipush        394
+    2633: bipush        32
+    2635: castore
+    2636: dup
+    2637: sipush        395
+    2640: bipush        32
+    2642: castore
+    2643: dup
+    2644: sipush        396
+    2647: bipush        32
+    2649: castore
+    2650: dup
+    2651: sipush        397
+    2654: bipush        32
+    2656: castore
+    2657: dup
+    2658: sipush        398
+    2661: bipush        32
+    2663: castore
+    2664: dup
+    2665: sipush        399
+    2668: bipush        32
+    2670: castore
+    2671: dup
+    2672: sipush        400
+    2675: bipush        42
+    2677: castore
+    2678: dup
+    2679: sipush        401
+    2682: bipush        42
+    2684: castore
+    2685: dup
+    2686: sipush        402
+    2689: bipush        32
+    2691: castore
+    2692: dup
+    2693: sipush        403
+    2696: bipush        32
+    2698: castore
+    2699: dup
+    2700: sipush        404
+    2703: bipush        32
+    2705: castore
+    2706: dup
+    2707: sipush        405
+    2710: bipush        32
+    2712: castore
+    2713: dup
+    2714: sipush        406
+    2717: bipush        32
+    2719: castore
+    2720: dup
+    2721: sipush        407
+    2724: bipush        42
+    2726: castore
+    2727: dup
+    2728: sipush        408
+    2731: bipush        42
+    2733: castore
+    2734: dup
+    2735: sipush        409
+    2738: bipush        10
+    2740: castore
+    2741: dup
+    2742: sipush        410
+    2745: bipush        42
+    2747: castore
+    2748: dup
+    2749: sipush        411
+    2752: bipush        42
+    2754: castore
+    2755: dup
+    2756: sipush        412
+    2759: bipush        32
+    2761: castore
+    2762: dup
+    2763: sipush        413
+    2766: bipush        32
+    2768: castore
+    2769: dup
+    2770: sipush        414
+    2773: bipush        32
+    2775: castore
+    2776: dup
+    2777: sipush        415
+    2780: bipush        32
+    2782: castore
+    2783: dup
+    2784: sipush        416
+    2787: bipush        42
+    2789: castore
+    2790: dup
+    2791: sipush        417
+    2794: bipush        42
+    2796: castore
+    2797: dup
+    2798: sipush        418
+    2801: bipush        32
+    2803: castore
+    2804: dup
+    2805: sipush        419
+    2808: bipush        32
+    2810: castore
+    2811: dup
+    2812: sipush        420
+    2815: bipush        32
+    2817: castore
+    2818: dup
+    2819: sipush        421
+    2822: bipush        32
+    2824: castore
+    2825: dup
+    2826: sipush        422
+    2829: bipush        32
+    2831: castore
+    2832: dup
+    2833: sipush        423
+    2836: bipush        32
+    2838: castore
+    2839: dup
+    2840: sipush        424
+    2843: bipush        32
+    2845: castore
+    2846: dup
+    2847: sipush        425
+    2850: bipush        42
+    2852: castore
+    2853: dup
+    2854: sipush        426
+    2857: bipush        42
+    2859: castore
+    2860: dup
+    2861: sipush        427
+    2864: bipush        32
+    2866: castore
+    2867: dup
+    2868: sipush        428
+    2871: bipush        32
+    2873: castore
+    2874: dup
+    2875: sipush        429
+    2878: bipush        32
+    2880: castore
+    2881: dup
+    2882: sipush        430
+    2885: bipush        32
+    2887: castore
+    2888: dup
+    2889: sipush        431
+    2892: bipush        32
+    2894: castore
+    2895: dup
+    2896: sipush        432
+    2899: bipush        32
+    2901: castore
+    2902: dup
+    2903: sipush        433
+    2906: bipush        32
+    2908: castore
+    2909: dup
+    2910: sipush        434
+    2913: bipush        32
+    2915: castore
+    2916: dup
+    2917: sipush        435
+    2920: bipush        32
+    2922: castore
+    2923: dup
+    2924: sipush        436
+    2927: bipush        32
+    2929: castore
+    2930: dup
+    2931: sipush        437
+    2934: bipush        32
+    2936: castore
+    2937: dup
+    2938: sipush        438
+    2941: bipush        32
+    2943: castore
+    2944: dup
+    2945: sipush        439
+    2948: bipush        32
+    2950: castore
+    2951: dup
+    2952: sipush        440
+    2955: bipush        42
+    2957: castore
+    2958: dup
+    2959: sipush        441
+    2962: bipush        42
+    2964: castore
+    2965: dup
+    2966: sipush        442
+    2969: bipush        32
+    2971: castore
+    2972: dup
+    2973: sipush        443
+    2976: bipush        32
+    2978: castore
+    2979: dup
+    2980: sipush        444
+    2983: bipush        32
+    2985: castore
+    2986: dup
+    2987: sipush        445
+    2990: bipush        42
+    2992: castore
+    2993: dup
+    2994: sipush        446
+    2997: bipush        42
+    2999: castore
+    3000: dup
+    3001: sipush        447
+    3004: bipush        10
+    3006: castore
+    3007: dup
+    3008: sipush        448
+    3011: bipush        42
+    3013: castore
+    3014: dup
+    3015: sipush        449
+    3018: bipush        42
+    3020: castore
+    3021: dup
+    3022: sipush        450
+    3025: bipush        32
+    3027: castore
+    3028: dup
+    3029: sipush        451
+    3032: bipush        32
+    3034: castore
+    3035: dup
+    3036: sipush        452
+    3039: bipush        32
+    3041: castore
+    3042: dup
+    3043: sipush        453
+    3046: bipush        32
+    3048: castore
+    3049: dup
+    3050: sipush        454
+    3053: bipush        32
+    3055: castore
+    3056: dup
+    3057: sipush        455
+    3060: bipush        42
+    3062: castore
+    3063: dup
+    3064: sipush        456
+    3067: bipush        42
+    3069: castore
+    3070: dup
+    3071: sipush        457
+    3074: bipush        32
+    3076: castore
+    3077: dup
+    3078: sipush        458
+    3081: bipush        32
+    3083: castore
+    3084: dup
+    3085: sipush        459
+    3088: bipush        32
+    3090: castore
+    3091: dup
+    3092: sipush        460
+    3095: bipush        32
+    3097: castore
+    3098: dup
+    3099: sipush        461
+    3102: bipush        32
+    3104: castore
+    3105: dup
+    3106: sipush        462
+    3109: bipush        32
+    3111: castore
+    3112: dup
+    3113: sipush        463
+    3116: bipush        42
+    3118: castore
+    3119: dup
+    3120: sipush        464
+    3123: bipush        42
+    3125: castore
+    3126: dup
+    3127: sipush        465
+    3130: bipush        32
+    3132: castore
+    3133: dup
+    3134: sipush        466
+    3137: bipush        32
+    3139: castore
+    3140: dup
+    3141: sipush        467
+    3144: bipush        32
+    3146: castore
+    3147: dup
+    3148: sipush        468
+    3151: bipush        32
+    3153: castore
+    3154: dup
+    3155: sipush        469
+    3158: bipush        32
+    3160: castore
+    3161: dup
+    3162: sipush        470
+    3165: bipush        32
+    3167: castore
+    3168: dup
+    3169: sipush        471
+    3172: bipush        32
+    3174: castore
+    3175: dup
+    3176: sipush        472
+    3179: bipush        32
+    3181: castore
+    3182: dup
+    3183: sipush        473
+    3186: bipush        32
+    3188: castore
+    3189: dup
+    3190: sipush        474
+    3193: bipush        32
+    3195: castore
+    3196: dup
+    3197: sipush        475
+    3200: bipush        32
+    3202: castore
+    3203: dup
+    3204: sipush        476
+    3207: bipush        32
+    3209: castore
+    3210: dup
+    3211: sipush        477
+    3214: bipush        32
+    3216: castore
+    3217: dup
+    3218: sipush        478
+    3221: bipush        42
+    3223: castore
+    3224: dup
+    3225: sipush        479
+    3228: bipush        42
+    3230: castore
+    3231: dup
+    3232: sipush        480
+    3235: bipush        32
+    3237: castore
+    3238: dup
+    3239: sipush        481
+    3242: bipush        32
+    3244: castore
+    3245: dup
+    3246: sipush        482
+    3249: bipush        32
+    3251: castore
+    3252: dup
+    3253: sipush        483
+    3256: bipush        42
+    3258: castore
+    3259: dup
+    3260: sipush        484
+    3263: bipush        42
+    3265: castore
+    3266: dup
+    3267: sipush        485
+    3270: bipush        10
+    3272: castore
+    3273: dup
+    3274: sipush        486
+    3277: bipush        42
+    3279: castore
+    3280: dup
+    3281: sipush        487
+    3284: bipush        42
+    3286: castore
+    3287: dup
+    3288: sipush        488
+    3291: bipush        32
+    3293: castore
+    3294: dup
+    3295: sipush        489
+    3298: bipush        32
+    3300: castore
+    3301: dup
+    3302: sipush        490
+    3305: bipush        32
+    3307: castore
+    3308: dup
+    3309: sipush        491
+    3312: bipush        32
+    3314: castore
+    3315: dup
+    3316: sipush        492
+    3319: bipush        32
+    3321: castore
+    3322: dup
+    3323: sipush        493
+    3326: bipush        32
+    3328: castore
+    3329: dup
+    3330: sipush        494
+    3333: bipush        42
+    3335: castore
+    3336: dup
+    3337: sipush        495
+    3340: bipush        42
+    3342: castore
+    3343: dup
+    3344: sipush        496
+    3347: bipush        32
+    3349: castore
+    3350: dup
+    3351: sipush        497
+    3354: bipush        32
+    3356: castore
+    3357: dup
+    3358: sipush        498
+    3361: bipush        32
+    3363: castore
+    3364: dup
+    3365: sipush        499
+    3368: bipush        32
+    3370: castore
+    3371: dup
+    3372: sipush        500
+    3375: bipush        32
+    3377: castore
+    3378: dup
+    3379: sipush        501
+    3382: bipush        42
+    3384: castore
+    3385: dup
+    3386: sipush        502
+    3389: bipush        42
+    3391: castore
+    3392: dup
+    3393: sipush        503
+    3396: bipush        42
+    3398: castore
+    3399: dup
+    3400: sipush        504
+    3403: bipush        42
+    3405: castore
+    3406: dup
+    3407: sipush        505
+    3410: bipush        42
+    3412: castore
+    3413: dup
+    3414: sipush        506
+    3417: bipush        42
+    3419: castore
+    3420: dup
+    3421: sipush        507
+    3424: bipush        42
+    3426: castore
+    3427: dup
+    3428: sipush        508
+    3431: bipush        42
+    3433: castore
+    3434: dup
+    3435: sipush        509
+    3438: bipush        32
+    3440: castore
+    3441: dup
+    3442: sipush        510
+    3445: bipush        32
+    3447: castore
+    3448: dup
+    3449: sipush        511
+    3452: bipush        32
+    3454: castore
+    3455: dup
+    3456: sipush        512
+    3459: bipush        32
+    3461: castore
+    3462: dup
+    3463: sipush        513
+    3466: bipush        32
+    3468: castore
+    3469: dup
+    3470: sipush        514
+    3473: bipush        32
+    3475: castore
+    3476: dup
+    3477: sipush        515
+    3480: bipush        32
+    3482: castore
+    3483: dup
+    3484: sipush        516
+    3487: bipush        32
+    3489: castore
+    3490: dup
+    3491: sipush        517
+    3494: bipush        42
+    3496: castore
+    3497: dup
+    3498: sipush        518
+    3501: bipush        42
+    3503: castore
+    3504: dup
+    3505: sipush        519
+    3508: bipush        32
+    3510: castore
+    3511: dup
+    3512: sipush        520
+    3515: bipush        42
+    3517: castore
+    3518: dup
+    3519: sipush        521
+    3522: bipush        42
+    3524: castore
+    3525: dup
+    3526: sipush        522
+    3529: bipush        10
+    3531: castore
+    3532: dup
+    3533: sipush        523
+    3536: bipush        42
+    3538: castore
+    3539: dup
+    3540: sipush        524
+    3543: bipush        42
+    3545: castore
+    3546: dup
+    3547: sipush        525
+    3550: bipush        32
+    3552: castore
+    3553: dup
+    3554: sipush        526
+    3557: bipush        32
+    3559: castore
+    3560: dup
+    3561: sipush        527
+    3564: bipush        32
+    3566: castore
+    3567: dup
+    3568: sipush        528
+    3571: bipush        32
+    3573: castore
+    3574: dup
+    3575: sipush        529
+    3578: bipush        32
+    3580: castore
+    3581: dup
+    3582: sipush        530
+    3585: bipush        32
+    3587: castore
+    3588: dup
+    3589: sipush        531
+    3592: bipush        32
+    3594: castore
+    3595: dup
+    3596: sipush        532
+    3599: bipush        42
+    3601: castore
+    3602: dup
+    3603: sipush        533
+    3606: bipush        42
+    3608: castore
+    3609: dup
+    3610: sipush        534
+    3613: bipush        32
+    3615: castore
+    3616: dup
+    3617: sipush        535
+    3620: bipush        32
+    3622: castore
+    3623: dup
+    3624: sipush        536
+    3627: bipush        32
+    3629: castore
+    3630: dup
+    3631: sipush        537
+    3634: bipush        32
+    3636: castore
+    3637: dup
+    3638: sipush        538
+    3641: bipush        42
+    3643: castore
+    3644: dup
+    3645: sipush        539
+    3648: bipush        42
+    3650: castore
+    3651: dup
+    3652: sipush        540
+    3655: bipush        42
+    3657: castore
+    3658: dup
+    3659: sipush        541
+    3662: bipush        42
+    3664: castore
+    3665: dup
+    3666: sipush        542
+    3669: bipush        42
+    3671: castore
+    3672: dup
+    3673: sipush        543
+    3676: bipush        42
+    3678: castore
+    3679: dup
+    3680: sipush        544
+    3683: bipush        42
+    3685: castore
+    3686: dup
+    3687: sipush        545
+    3690: bipush        42
+    3692: castore
+    3693: dup
+    3694: sipush        546
+    3697: bipush        32
+    3699: castore
+    3700: dup
+    3701: sipush        547
+    3704: bipush        32
+    3706: castore
+    3707: dup
+    3708: sipush        548
+    3711: bipush        32
+    3713: castore
+    3714: dup
+    3715: sipush        549
+    3718: bipush        32
+    3720: castore
+    3721: dup
+    3722: sipush        550
+    3725: bipush        32
+    3727: castore
+    3728: dup
+    3729: sipush        551
+    3732: bipush        32
+    3734: castore
+    3735: dup
+    3736: sipush        552
+    3739: bipush        32
+    3741: castore
+    3742: dup
+    3743: sipush        553
+    3746: bipush        32
+    3748: castore
+    3749: dup
+    3750: sipush        554
+    3753: bipush        42
+    3755: castore
+    3756: dup
+    3757: sipush        555
+    3760: bipush        42
+    3762: castore
+    3763: dup
+    3764: sipush        556
+    3767: bipush        42
+    3769: castore
+    3770: dup
+    3771: sipush        557
+    3774: bipush        42
+    3776: castore
+    3777: dup
+    3778: sipush        558
+    3781: bipush        42
+    3783: castore
+    3784: dup
+    3785: sipush        559
+    3788: bipush        10
+    3790: castore
+    3791: astore_1
+    3792: getstatic     #7                  // Field java/lang/System.out:Ljava/io/PrintStream;
+    3795: ldc           #13                 // String Group:   545v\nStudent: Kasapen Elizaveta Vyacheslavovna\nVariant: 5\n
+    3797: invokevirtual #15                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+    3800: getstatic     #7                  // Field java/lang/System.out:Ljava/io/PrintStream;
+    3803: aload_1
+    3804: invokevirtual #21                 // Method java/io/PrintStream.println:([C)V
+    3807: return
+}
